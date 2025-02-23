@@ -7,7 +7,7 @@
  *    @author     : Александр Юшкевич
  *    @aka        : iA, alexff
  *    @project    : Все проекты CG. CG Research & Development(c) Projects
- *    @version    : 3.1.0-beta (Завершенная версия, тестирование завершено)
+ *    @version    : 3.0.1-alpha (доробатывается, тестируется)
  *    @license    : MIT License
  *    @contact    : / alexff.2b@hotmail.com /
  *                   / alexff.2b@gmail.com   /
