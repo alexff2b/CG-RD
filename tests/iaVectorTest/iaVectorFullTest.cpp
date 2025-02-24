@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../../iaAi/iaMl/iaVector/iaVector.hpp" // Подключаем твой шаблонный класс
+#include "../../iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector.hpp" // Подключаем твой шаблонный класс
 
 // Функция тестирования iaVector<T>
 template <typename T>
