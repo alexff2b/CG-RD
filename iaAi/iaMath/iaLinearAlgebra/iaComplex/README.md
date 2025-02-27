@@ -38,7 +38,6 @@ clang++ -std=c++17 -Wall -Wextra -Werror -pedantic -I./iaAi tests/iaComplexTest/
 Пример компиляции с использованием `g++`:
 ```sh
 g++ -std=c++17 -Wall -Wextra -Werror -pedantic -I../../iaAi tests/iaComplexTest/iaComplexTest.cpp ../../iaAi/iaMath/iaLinearAlgebra/iaComplex/iaComplex.cpp -o tests/iaComplexTest/iaComplexTest
-```
 
 ```
 
