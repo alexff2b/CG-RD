@@ -1,33 +1,21 @@
-# TODO List for iaComplex Class
+# TODO для класса iaComplex
 
-## Planned Features and Enhancements
+## Улучшение функциональности
+- [ ] Добавить метод для вычисления комплексного экспоненциального числа `exp()`.
+- [ ] Реализовать методы `sin()`, `cos()`, `tan()` для работы с комплексными числами.
+- [ ] Добавить метод `pow(int n)`, который возводит комплексное число в целочисленную степень.
+- [ ] Поддержка перегруженного оператора `>>` для ввода комплексного числа из `std::istream`.
+- [ ] Добавить методы `real()` и `imag()` для получения действительной и мнимой частей.
 
-### 1. Additional Mathematical Operations
-- [ ] Implement **power** operation for complex numbers (`c1^n`).
-- [ ] Implement **root extraction** for complex numbers (`n`-th root).
-- [ ] Implement **exponential**, **logarithm**, and **trigonometric** functions:
-  - `exp(c)`, `log(c)`, `sin(c)`, `cos(c)`, `tan(c)`, etc.
+## Оптимизация и улучшение производительности
+- [ ] Улучшить алгоритм деления для избежания потери точности при малых значениях знаменателя.
+- [ ] Добавить тестирование на граничные случаи (деление на очень малые числа, округления и т. д.).
 
-### 2. Improved I/O and Formatting
-- [ ] Support parsing complex numbers from **string input** (e.g., `"3+4i"`).
-- [ ] Implement formatting options for output (rectangular vs. polar form).
+## Совместимость и стандартизация
+- [ ] Поддержка взаимодействия с `std::complex<double>` из стандартной библиотеки C++.
+- [ ] Улучшить совместимость с `std::numeric_limits`.
 
-### 3. Performance Optimization
-- [ ] Optimize arithmetic operations for **reduced computational overhead**.
-- [ ] Investigate the use of **SIMD instructions** for complex number operations.
-
-### 4. Extended Compatibility
-- [ ] Ensure compatibility with **C++ standard library complex numbers** (`std::complex`).
-- [ ] Add support for **templated complex numbers** (`iaComplex<T>`, e.g., `float`, `long double`).
-
-### 5. Testing and Debugging
-- [ ] Expand unit tests for all arithmetic operations.
-- [ ] Add stress tests with large-scale computations.
-- [ ] Verify cross-platform consistency (macOS, Linux, Windows).
-
-### 6. Documentation and Examples
-- [ ] Improve **Doxygen documentation** for the class.
-- [ ] Provide practical **examples of usage** in different scientific fields (physics, engineering, etc.).
-
----
-_Last updated: February 2025_
+## Документация и тестирование
+- [ ] Написать расширенную документацию для всех методов.
+- [ ] Добавить больше примеров использования в README.md.
+- [ ] Реализовать дополнительные тесты в `iaComplexTest`.
