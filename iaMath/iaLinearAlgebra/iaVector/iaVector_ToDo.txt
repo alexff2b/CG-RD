@@ -1,0 +1,139 @@
+#include <iostream>
+#include <vector>
+#include <type_traits>
+#include <cmath>
+
+// Концепт для проверки, является ли тип числовым
+template <typename T>
+concept Numeric = std::is_arithmetic_v<T>;  // Проверяем, что тип является арифметическим (числовым)
+
+template <typename T>
+class iaVector {
+public:
+    std::vector<T> data;
+
+    iaVector() = default;
+
+    iaVector(size_t size, const T* initData) {
+        for (size_t i = 0; i < size; ++i) {
+            data.push_back(initData[i]);
+        }
+    }
+
+    void push_back(const T& item) {
+        data.push_back(item);
+    }
+
+    void print(std::ostream& out) const {
+        for (const auto& item : data) {
+            out << item << " ";
+        }
+        out << "\n";
+    }
+
+    size_t size() const {
+        return data.size();
+    }
+
+    T& operator[](size_t index) {
+        return data[index];
+    }
+
+    const T& operator[](size_t index) const {
+        return data[index];
+    }
+
+    // Сложение векторов (работает только с числовыми типами)
+    iaVector<T> operator+(const iaVector<T>& other) const {
+        static_assert(Numeric<T>, "Тип T должен быть числовым для выполнения операции сложения");
+        if (data.size() != other.data.size()) {
+            throw std::invalid_argument("Векторы должны быть одинаковой длины");
+        }
+        
+        iaVector<T> result(data.size(), nullptr);
+        for (size_t i = 0; i < data.size(); ++i) {
+            result[i] = data[i] + other[i];
+        }
+        return result;
+    }
+
+    // Вычитание векторов (работает только с числовыми типами)
+    iaVector<T> operator-(const iaVector<T>& other) const {
+        static_assert(Numeric<T>, "Тип T должен быть числовым для выполнения операции вычитания");
+        if (data.size() != other.data.size()) {
+            throw std::invalid_argument("Векторы должны быть одинаковой длины");
+        }
+
+        iaVector<T> result(data.size(), nullptr);
+        for (size_t i = 0; i < data.size(); ++i) {
+            result[i] = data[i] - other[i];
+        }
+        return result;
+    }
+
+    // Скалярное произведение (работает только с числовыми типами)
+    T operator|(const iaVector<T>& other) const {
+        static_assert(Numeric<T>, "Тип T должен быть числовым для выполнения операции скалярного произведения");
+        if (data.size() != other.data.size()) {
+            throw std::invalid_argument("Векторы должны быть одинаковой длины");
+        }
+
+        T result = 0;
+        for (size_t i = 0; i < data.size(); ++i) {
+            result += data[i] * other[i];
+        }
+        return result;
+    }
+
+    // Норма L2 (работает только с числовыми типами)
+    double L2norm() const {
+        static_assert(Numeric<T>, "Тип T должен быть числовым для вычисления L2-нормы");
+        double sum = 0;
+        for (const auto& item : data) {
+            sum += item * item;
+        }
+        return std::sqrt(sum);
+    }
+
+    // Норма L1 (работает только с числовыми типами)
+    double L1norm() const {
+        static_assert(Numeric<T>, "Тип T должен быть числовым для вычисления L1-нормы");
+        double sum = 0;
+        for (const auto& item : data) {
+            sum += std::abs(item);
+        }
+        return sum;
+    }
+};
+
+int main() {
+    // Пример с числовыми векторами
+    double data1[] = {1.0, 2.0, 3.0};
+    double data2[] = {4.0, 5.0, 6.0};
+
+    iaVector<double> vec1(3, data1);
+    iaVector<double> vec2(3, data2);
+
+    // Операции с числовыми типами
+    auto sum = vec1 + vec2;
+    sum.print(std::cout);  // Ожидаемый вывод: 5 7 9
+
+    auto diff = vec1 - vec2;
+    diff.print(std::cout);  // Ожидаемый вывод: -3 -3 -3
+
+    double scalarProduct = vec1 | vec2;
+    std::cout << "Скалярное произведение: " << scalarProduct << "\n";  // Ожидаемый вывод: 32
+
+    double norm1 = vec1.L1norm();
+    std::cout << "L1-норма vec1: " << norm1 << "\n";  // Ожидаемый вывод: 6
+
+    double norm2 = vec1.L2norm();
+    std::cout << "L2-норма vec1: " << norm2 << "\n";  // Ожидаемый вывод: 3.74166
+
+    // Пример с векторами объектов (ошибка компиляции)
+    // Если вы попробуете работать с объектами других классов, компилятор выдаст ошибку:
+    // iaVector<Person> personVec;
+    // personVec.push_back(Person("Alice", 30));  // Ошибка: операция не поддерживается для классов, не являющихся числами
+
+    return 0;
+}

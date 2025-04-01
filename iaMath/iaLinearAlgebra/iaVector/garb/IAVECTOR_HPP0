@@ -1,0 +1,114 @@
+#ifndef IAVECTOR_HPP
+#define IAVECTOR_HPP
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <stdexcept>
+
+/**
+ * @class iaVector
+ * @brief Класс для работы с векторами
+ */
+class iaVector {
+public:
+    /** @brief Конструктор по умолчанию */
+    iaVector();
+
+    /**
+     * @brief Конструктор с заданным размером
+     * @param m Размер вектора
+     */
+    iaVector(int m);
+
+    /**
+     * @brief Конструктор с массивом значений
+     * @param m Размер вектора
+     * @param values Массив значений
+     */
+    iaVector(int m, const double values[]);
+
+    /** @brief Конструктор копирования */
+    iaVector(const iaVector& otherVector);
+
+    /** @brief Деструктор */
+    ~iaVector();
+
+    /** @brief Оператор присваивания */
+    iaVector& operator=(const iaVector& otherVector) noexcept;
+
+    /** @brief Оператор сложения */
+    iaVector operator+(const iaVector& otherVector) const;
+
+    /** @brief Оператор вычитания */
+    iaVector operator-(const iaVector& otherVector) const;
+
+    /** @brief Поэлементное умножение */
+    iaVector operator*(const iaVector& otherVector) const;
+
+    /** @brief Умножение на скаляр */
+    iaVector operator*(double scal) const;
+
+    /** @brief Инвертирование знаков элементов вектора */
+    void inverting() noexcept;
+
+    /** @brief Получение размера вектора */
+    int sizeOfVector() const;
+
+    /** @brief Вывод вектора в консоль */
+    void printVector() const;
+
+    /** @brief Сумма элементов вектора */
+    double sum() const;
+
+    /** @brief Норма L2 (евклидова) */
+    double L2norm() const;
+
+    /** @brief Норма L1 (манхэттенская) */
+    double L1norm() const;
+
+    /** @brief Норма L∞ (максимальная) */
+    double LMnorm() const;
+
+    /** @brief Скалярное произведение */
+    double dotProduct(const iaVector& otherVector) const;
+
+    /** @brief Угол между векторами (в радианах) */
+    double angleBetween(const iaVector& otherVector) const noexcept;
+
+    /** @brief Сортировка по возрастанию */
+    void sortAscending();
+
+    /** @brief Сортировка по убыванию */
+    void sortDescending();
+
+    /** @brief Максимальный элемент */
+    double maxElement() const;
+
+    /** @brief Минимальный элемент */
+    double minElement() const;
+
+    /** @brief Среднее арифметическое элементов */
+    double average() const;
+
+    /** @brief Доступ к элементу по индексу */
+    double& operator[](int j);
+
+    /** @brief Доступ к элементу по индексу (для константных объектов) */
+    const double& operator[](int j) const;
+
+    /** @brief Проверка на равенство */
+    bool operator==(const iaVector& otherVector) const noexcept;
+
+    /** @brief Проверка на неравенство */
+    bool operator!=(const iaVector& otherVector) const noexcept;
+
+    /** @brief Операция, требующая пояснения (измените или удалите) */
+    iaVector operator||(const iaVector& otherVector) const noexcept;
+
+private:
+    int m;       ///< Размер вектора
+    double* value; ///< Указатель на массив значений
+};
+
+#endif /* IAVECTOR_HPP */

@@ -1,0 +1,36 @@
+
+projectroot/
+├── iaAi/
+│   ├── iaMl/
+│   │   ├── iaVector/
+│   │   ├── iaPerceptron/
+│   │   ├── iaLexer/
+│   │   ├── iaToken/
+│   │   ├── iaMemory/
+│   ├── iaMath/
+│   │   ├── iaLinearAlgebra/
+│   │   │   ├── iaVector/
+│   │   │   ├── iaComplex/
+│   │   │       ├── iaVector.hpp
+│   │   │   ├── iaComplex/
+│   │   │       ├── iaComplex.hpp
+│   │   │       ├── iaComplex.cpp
+│   │   ├── iaProbability/
+│   │   ├── iaStatistics/
+│   ├── iaPhysics/
+│   │   ├── iaNewtonian/
+│   │   ├── iaQuantum/
+│   │   ├── iaAstrophysics/
+│   ├── iaOs/
+│   ├── iaDatabase/
+│   ├── iaGis/
+│   ├── iaSimulation/
+├── test/
+│   ├── dataToTests/
+│   ├── iaComplexTest/
+│   │   ├── iaComplexTest.cpp
+│   ├── iaVectorTest/
+│   │   ├── iaVectorTests.cpp
+│   ├── testsResults/
+└── scripts/
+    ├── create_project_structure.sh

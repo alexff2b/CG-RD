@@ -1,0 +1,73 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "iaLinkedLinearList.h"
+
+// Функция для создания нового узла
+struct Node* createNode(int value) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));  // Выделяем память для нового узла
+    if (newNode == NULL) {  // Проверка на успешное выделение памяти
+        printf("Ошибка выделения памяти!\n");
+        exit(1);  // Завершаем программу, если память не была выделена
+    }
+    newNode->data = value;  // Инициализация данных узла
+    newNode->next = NULL;   // Изначально следующий узел пуст
+    newNode->prev = NULL;   // Изначально предыдущий узел пуст
+    return newNode;         // Возвращаем указатель на новый узел
+}
+
+// Функция для добавления узла в конец списка
+void appendNode(struct Node** head, int value) {
+    struct Node* newNode = createNode(value);  // Создаем новый узел
+    if (*head == NULL) {
+        *head = newNode;  // Если список пустой, новый узел становится головой списка
+    } else {
+        struct Node* temp = *head;
+        // Проходим до конца списка
+        while (temp->next != NULL) {
+            temp = temp->next;
+        }
+        temp->next = newNode;  // Добавляем новый узел в конец списка
+        newNode->prev = temp;  // Устанавливаем указатель на предыдущий узел
+    }
+}
+
+// Функция для вывода списка в прямом порядке
+void printList(struct Node* head) {
+    struct Node* temp = head;
+    printf("Список (вперед): ");
+    while (temp != NULL) {
+        printf("%d <-> ", temp->data);  // Выводим данные узла
+        temp = temp->next;  // Переходим к следующему узлу
+    }
+    printf("NULL\n");
+}
+
+// Функция для вывода списка в обратном порядке
+void printListBackward(struct Node* head) {
+    if (head == NULL) {
+        printf("Список пуст.\n");
+        return;
+    }
+    struct Node* temp = head;
+    // Ищем последний элемент
+    while (temp->next != NULL) {
+        temp = temp->next;
+    }
+    // Печатаем список в обратном порядке
+    printf("Список (назад): ");
+    while (temp != NULL) {
+        printf("%d <-> ", temp->data);  // Выводим данные узла
+        temp = temp->prev;  // Переходим к предыдущему узлу
+    }
+    printf("NULL\n");
+}
+
+// Функция для удаления списка и освобождения памяти
+void deleteList(struct Node* head) {
+    struct Node* temp;
+    while (head != NULL) {
+        temp = head;
+        head = head->next;  // Переходим к следующему узлу
+        free(temp);  // Освобождаем память текущего узла
+    }
+}

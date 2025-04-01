@@ -1,0 +1,109 @@
+#ifndef iaVector_hpp
+#define iaVector_hpp
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <stdexcept>
+#include <type_traits>
+
+// Шаблонный класс вектора
+template <typename T>
+class iaVector {
+    static_assert(std::is_arithmetic<T>::value, "iaVector can only be used with numeric types.");
+
+public:
+    iaVector() : m(0), value(nullptr) {}
+    iaVector(int m) : m(m), value(m > 0 ? new T[m]() : nullptr) {}
+    iaVector(int m, const T values[]) : m(m), value(m > 0 ? new T[m]() : nullptr) {
+        for (int i = 0; i < m; i++) value[i] = values[i];
+    }
+    iaVector(const iaVector<T>& otherVector) : m(otherVector.m), value(m > 0 ? new T[m]() : nullptr) {
+        for (int i = 0; i < m; i++) value[i] = otherVector.value[i];
+    }
+    ~iaVector() { delete[] value; }
+
+    iaVector<T>& operator=(const iaVector<T>& otherVector) noexcept {
+        if (this != &otherVector) {
+            delete[] value;
+            m = otherVector.m;
+            value = new T[m];
+            for (int i = 0; i < m; i++) value[i] = otherVector.value[i];
+        }
+        return *this;
+    }
+
+    iaVector<T> operator+(const iaVector<T>& otherVector) noexcept {
+        if (m != otherVector.m) throw std::runtime_error("Vector sizes do not match");
+        iaVector<T> result(m);
+        for (int i = 0; i < m; i++) result.value[i] = value[i] + otherVector.value[i];
+        return result;
+    }
+
+    iaVector<T> operator-(const iaVector<T>& otherVector) noexcept {
+        if (m != otherVector.m) throw std::runtime_error("Vector sizes do not match");
+        iaVector<T> result(m);
+        for (int i = 0; i < m; i++) result.value[i] = value[i] - otherVector.value[i];
+        return result;
+    }
+
+    iaVector<T> operator*(T scal) {
+        iaVector<T> result(m);
+        for (int i = 0; i < m; i++) result.value[i] = value[i] * scal;
+        return result;
+    }
+
+    void inverting() noexcept {
+        for (int i = 0, j = m - 1; i < j; i++, j--) std::swap(value[i], value[j]);
+    }
+
+    int sizeOfVector() const { return m; }
+    void printVector() const {
+        std::cout << "|";
+        for (int i = 0; i < m; i++) std::cout << std::fixed << std::setprecision(2) << " " << value[i] << "|";
+        std::cout << std::endl;
+    }
+    
+    T sum() const {
+        T sum = 0;
+        for (int i = 0; i < m; i++) sum += value[i];
+        return sum;
+    }
+
+    T L2norm() const {
+        T sum = 0;
+        for (int i = 0; i < m; i++) sum += value[i] * value[i];
+        return std::sqrt(sum);
+    }
+
+    T L1norm() const {
+        T sum = 0;
+        for (int i = 0; i < m; i++) sum += std::abs(value[i]);
+        return sum;
+    }
+
+    T LMnorm() const {
+        T max = std::abs(value[0]);
+        for (int i = 1; i < m; i++) if (std::abs(value[i]) > max) max = std::abs(value[i]);
+        return max;
+    }
+
+    T& operator[](int j) {
+        if (j < 0 || j >= m) throw std::out_of_range("Index out of bounds.");
+        return value[j];
+    }
+
+    bool operator==(const iaVector<T>& otherVector) const noexcept {
+        if (m != otherVector.m) return false;
+        for (int i = 0; i < m; i++) if (value[i] != otherVector.value[i]) return false;
+        return true;
+    }
+
+    bool operator!=(const iaVector<T>& otherVector) const noexcept { return !(*this == otherVector); }
+
+private:
+    int m; 
+    T* value;
+};
+
+#endif /* iaVector_hpp */

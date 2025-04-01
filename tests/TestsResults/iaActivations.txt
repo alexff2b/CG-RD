@@ -1,0 +1,155 @@
+▶ Тестирование iaActivations:
+Считанные значения:
+[0.25 -0.5 0.7 -0.3 0.1 -0.9 0.6 -0.1 0 0.8 ]
+--------------------
+x = 0.250000
+▶ identity: 0.250000
+▶ heaviside: 1.000000
+▶ sigmoid: 0.562177
+▶ tanh: 0.244919
+▶ arctanh: 0.255413
+▶ softsign: 0.200000
+▶ relu: 0.250000
+▶ lrelu: 0.250000
+▶ hardSwish: 0.135417
+▶ softshrink: 0.150000
+▶ isru: 0.249922
+▶ rrelu: 0.250000
+▶ selu: 0.025000
+--------------------
+x = -0.500000
+▶ identity: -0.500000
+▶ heaviside: 0.000000
+▶ sigmoid: 0.377541
+▶ tanh: -0.462117
+▶ arctanh: -0.549306
+▶ softsign: -0.333333
+▶ relu: 0.000000
+▶ lrelu: -0.005000
+▶ hardSwish: -0.208333
+▶ softshrink: -0.400000
+▶ isru: -0.499376
+▶ rrelu: -0.003535
+▶ selu: -0.000393
+--------------------
+x = 0.700000
+▶ identity: 0.700000
+▶ heaviside: 1.000000
+▶ sigmoid: 0.668188
+▶ tanh: 0.604368
+▶ arctanh: 0.867301
+▶ softsign: 0.411765
+▶ relu: 0.700000
+▶ lrelu: 0.700000
+▶ hardSwish: 0.431667
+▶ softshrink: 0.600000
+▶ isru: 0.698291
+▶ rrelu: 0.700000
+▶ selu: 0.070000
+--------------------
+x = -0.300000
+▶ identity: -0.300000
+▶ heaviside: 0.000000
+▶ sigmoid: 0.425557
+▶ tanh: -0.291313
+▶ arctanh: -0.309520
+▶ softsign: -0.230769
+▶ relu: 0.000000
+▶ lrelu: -0.003000
+▶ hardSwish: -0.135000
+▶ softshrink: -0.200000
+▶ isru: -0.299865
+▶ rrelu: -0.002428
+▶ selu: -0.000259
+--------------------
+x = 0.100000
+▶ identity: 0.100000
+▶ heaviside: 1.000000
+▶ sigmoid: 0.524979
+▶ tanh: 0.099668
+▶ arctanh: 0.100335
+▶ softsign: 0.090909
+▶ relu: 0.100000
+▶ lrelu: 0.100000
+▶ hardSwish: 0.051667
+▶ softshrink: 0.000000
+▶ isru: 0.099995
+▶ rrelu: 0.100000
+▶ selu: 0.010000
+--------------------
+x = -0.900000
+▶ identity: -0.900000
+▶ heaviside: 0.000000
+▶ sigmoid: 0.289050
+▶ tanh: -0.716298
+▶ arctanh: -1.472219
+▶ softsign: -0.473684
+▶ relu: 0.000000
+▶ lrelu: -0.009000
+▶ hardSwish: -0.315000
+▶ softshrink: -0.800000
+▶ isru: -0.896377
+▶ rrelu: -0.008008
+▶ selu: -0.000593
+--------------------
+x = 0.600000
+▶ identity: 0.600000
+▶ heaviside: 1.000000
+▶ sigmoid: 0.645656
+▶ tanh: 0.537050
+▶ arctanh: 0.693147
+▶ softsign: 0.375000
+▶ relu: 0.600000
+▶ lrelu: 0.600000
+▶ hardSwish: 0.360000
+▶ softshrink: 0.500000
+▶ isru: 0.598923
+▶ rrelu: 0.600000
+▶ selu: 0.060000
+--------------------
+x = -0.100000
+▶ identity: -0.100000
+▶ heaviside: 0.000000
+▶ sigmoid: 0.475021
+▶ tanh: -0.099668
+▶ arctanh: -0.100335
+▶ softsign: -0.090909
+▶ relu: 0.000000
+▶ lrelu: -0.001000
+▶ hardSwish: -0.048333
+▶ softshrink: 0.000000
+▶ isru: -0.099995
+▶ rrelu: -0.000060
+▶ selu: -0.000095
+--------------------
+x = 0.000000
+▶ identity: 0.000000
+▶ heaviside: 1.000000
+▶ sigmoid: 0.500000
+▶ tanh: 0.000000
+▶ arctanh: 0.000000
+▶ softsign: 0.000000
+▶ relu: 0.000000
+▶ lrelu: 0.000000
+▶ hardSwish: 0.000000
+▶ softshrink: 0.000000
+▶ isru: 0.000000
+▶ rrelu: 0.000000
+▶ selu: 0.000000
+--------------------
+x = 0.800000
+▶ identity: 0.800000
+▶ heaviside: 1.000000
+▶ sigmoid: 0.689974
+▶ tanh: 0.664037
+▶ arctanh: 1.098612
+▶ softsign: 0.444444
+▶ relu: 0.800000
+▶ lrelu: 0.800000
+▶ hardSwish: 0.506667
+▶ softshrink: 0.700000
+▶ isru: 0.797452
+▶ rrelu: 0.800000
+▶ selu: 0.080000
+▶ softmax:
+0.106036 0.0500877 0.166297 0.0611773 0.0912658 0.0335748 0.150472 0.0747221 0.0825807 0.183787 

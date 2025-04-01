@@ -1,0 +1,471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"w",
+				"word"
+			],
+			[
+				"p",
+				"printf"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"pr",
+				"printf"
+			],
+			[
+				"num",
+				"num_dice"
+			],
+			[
+				"rol",
+				"roll"
+			],
+			[
+				"r",
+				"rolls"
+			],
+			[
+				"con",
+				"con_price"
+			],
+			[
+				"m",
+				"matmult"
+			],
+			[
+				"mat",
+				"matmult"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"n",
+				"numeros"
+			],
+			[
+				"s",
+				"sizeof"
+			],
+			[
+				"lo",
+				"long"
+			],
+			[
+				"resul",
+				"resultat"
+			],
+			[
+				"re",
+				"resultat"
+			],
+			[
+				"del",
+				"delta_y"
+			],
+			[
+				"de",
+				"delta_x"
+			],
+			[
+				"in",
+				"inc\t#include \"…\""
+			],
+			[
+				"ios",
+				"iostream"
+			],
+			[
+				"F",
+				"Forward"
+			],
+			[
+				"l",
+				"layersN"
+			],
+			[
+				"la",
+				"layerN"
+			],
+			[
+				"La",
+				"layerN"
+			],
+			[
+				"L",
+				"LayerT"
+			],
+			[
+				"Ma",
+				"Math"
+			],
+			[
+				"co",
+				"constnumber"
+			],
+			[
+				"nu",
+				"number20"
+			],
+			[
+				"lst",
+				"lst3"
+			],
+			[
+				"epo",
+				"epochs"
+			],
+			[
+				"N",
+				"Network"
+			],
+			[
+				"v",
+				"values"
+			],
+			[
+				"T",
+				"TensorSize"
+			],
+			[
+				"o",
+				"operator"
+			],
+			[
+				"d",
+				"double"
+			],
+			[
+				"te",
+				"TensorSize"
+			],
+			[
+				"Ten",
+				"tensor"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"ou",
+				"outputSize"
+			],
+			[
+				"I",
+				"InitWeights"
+			],
+			[
+				"Tens",
+				"TensorSize"
+			],
+			[
+				"C",
+				"ConvLayer"
+			],
+			[
+				"Te",
+				"Tensor"
+			],
+			[
+				"t",
+				"tensor"
+			],
+			[
+				"In",
+				"Init"
+			],
+			[
+				"code",
+				"code3"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Arithmetic"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alexff/Documents/projects/CG RD",
+		"/Users/alexff/Documents/projects/CG RD/tests",
+		"/Users/alexff/Documents/projects/CG RD/tests/iaVectorTest"
+	],
+	"file_history":
+	[
+		"/Users/alexff/Documents/projects/CG RD/scripts/shell/compile_iaVectorTest.sh",
+		"/Users/alexff/Documents/projects/CG RD/tests/iaVectorTest/iaVectorTest.cpp",
+		"/Users/alexff/Desktop/study/C/lector.c",
+		"/Users/alexff/Documents/projects/Classes_DevTest/MathClasses/iaApplic.hpp",
+		"/Users/alexff/Documents/projects/CG RD/iaAi/iaMath/iaLinearAlgebra/iaComplex/TODO.md",
+		"/Users/alexff/Desktop/study/C/example.txt",
+		"/Users/alexff/Desktop/study/python/textassist.py",
+		"/Users/alexff/Documents/projects/дроиды/Андроид ИИ/Lingvo/rnn/onehot.cpp",
+		"/Users/alexff/Documents/projects/дроиды/Андроид ИИ/Lingvo/rnn/onehot.h",
+		"/Users/alexff/Documents/projects/дроиды/Андроид ИИ/Lingvo/rnn/tokenizer.cpp",
+		"/Users/alexff/Documents/projects/дроиды/Андроид ИИ/Lingvo/rnn/tokenizer.h",
+		"/Users/alexff/Documents/projects/дроиды/Андроид ИИ/Lingvo/rnn/main.cpp",
+		"/Users/alexff/Documents/projects/дроиды/Андроид ИИ/Base/simbols.c",
+		"/Users/alexff/Desktop/study/C/dict.c",
+		"/Users/alexff/Desktop/study/C/langmod.c",
+		"/Users/alexff/Desktop/study/C/classific.c",
+		"/Users/alexff/Desktop/study/C/percept2.c",
+		"/Users/alexff/Desktop/study/C/percept.c",
+		"/Users/alexff/Desktop/study/python/atom.py",
+		"/Users/alexff/Desktop/study/C/neurodinamic.c",
+		"/Users/alexff/Desktop/study/C/snake.c",
+		"/Users/alexff/Desktop/study/C/game.c",
+		"/Users/alexff/Desktop/study/C/fract.c",
+		"/Users/alexff/Desktop/study/C/poker/poker/main.c",
+		"/Users/alexff/Desktop/study/python/import dice_stat.py",
+		"/Users/alexff/Documents/CAN driver.txt",
+		"/Users/alexff/Documents/SPI-драйвер.txt",
+		"/Users/alexff/Documents/драйвер ethernet.txt",
+		"/Users/alexff/Desktop/study/CPP/neuro_education/neuro_education/main.cpp",
+		"/Users/alexff/Desktop/study/CPP/neuro_education/neuro_education/tests.cpp",
+		"/Users/alexff/Desktop/graphic.cpp",
+		"/Users/alexff/Desktop/study/C/education.c",
+		"/Users/alexff/Desktop/study/python/math.py",
+		"/Users/alexff/Desktop/study/python/graph.py",
+		"/Users/alexff/Desktop/study/C/education.s",
+		"/Users/alexff/Desktop/study/python/anim.py",
+		"/Users/alexff/Desktop/study/python/learning.py",
+		"/Users/alexff/Desktop/study/C#/vector.cs",
+		"/Users/alexff/Desktop/study/CPP/training.cpp/training.cpp/main.cpp",
+		"/Users/alexff/Desktop/study/C#/hello.cs",
+		"/Users/alexff/Desktop/study/C/hello.c",
+		"/Users/alexff/Desktop/study/CPP/rollNetiA/rollNetiA/main.cpp",
+		"/Users/alexff/Desktop/study/Csh/vector.cs",
+		"/Users/alexff/Library/Application Support/Sublime Text/Packages/User/C#",
+		"/Users/alexff/Desktop/study/C#/hello.csh",
+		"/Users/alexff/Desktop/study/CPP/my Classes/vector.cs",
+		"/Users/alexff/Desktop/study/python/torchTest.py",
+		"/Users/alexff/Desktop/study/CPP/main.cpp",
+		"/Users/alexff/Desktop/study/python/nnclassificator.py",
+		"/Users/alexff/Desktop/study/python/keras version.py",
+		"/Users/alexff/Desktop/study/python/nnclassificator",
+		"/Users/alexff/Desktop/study/python/neuronet.py",
+		"/Users/alexff/Desktop/study/python/siG.py",
+		"/Users/alexff/Desktop/study/hello.py",
+		"/Users/alexff/Desktop/Untitled 2.game"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 241.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C Single File.sublime-build",
+	"project": "CG RD.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

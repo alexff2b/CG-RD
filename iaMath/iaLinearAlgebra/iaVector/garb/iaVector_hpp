@@ -1,0 +1,186 @@
+#ifndef iaVector_hpp
+#define iaVector_hpp
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <stdexcept>
+#include <type_traits>
+
+/**
+ * @brief Шаблонный класс вектора, поддерживающий любые типы данных.
+ * @tparam T Тип данных элементов вектора.
+ */
+template <typename T>
+class iaVector {
+public:
+    /**
+     * @brief Конструктор по умолчанию (пустой вектор).
+     */
+    iaVector() : m(0), value(nullptr) {}
+
+    /**
+     * @brief Конструктор, создающий вектор заданного размера.
+     * @param m Размер вектора.
+     */
+    iaVector(int m) : m(m), value(m > 0 ? new T[m]() : nullptr) {}
+
+    /**
+     * @brief Конструктор, создающий вектор из массива.
+     * @param m Размер вектора.
+     * @param values Массив значений.
+     */
+    iaVector(int m, const T values[]) : m(m), value(m > 0 ? new T[m]() : nullptr) {
+        for (int i = 0; i < m; i++) value[i] = values[i];
+    }
+
+    /**
+     * @brief Конструктор копирования.
+     * @param otherVector Вектор, который нужно скопировать.
+     */
+    iaVector(const iaVector<T>& otherVector) : m(otherVector.m), value(m > 0 ? new T[m]() : nullptr) {
+        for (int i = 0; i < m; i++) value[i] = otherVector.value[i];
+    }
+
+    /**
+     * @brief Деструктор.
+     */
+    ~iaVector() { delete[] value; }
+
+    /**
+     * @brief Оператор присваивания.
+     * @param otherVector Вектор, который нужно присвоить.
+     * @return Ссылка на текущий объект.
+     */
+    iaVector<T>& operator=(const iaVector<T>& otherVector) {
+        if (this != &otherVector) {
+            delete[] value;
+            m = otherVector.m;
+            value = new T[m];
+            for (int i = 0; i < m; i++) value[i] = otherVector.value[i];
+        }
+        return *this;
+    }
+
+    /**
+     * @brief Оператор индексации.
+     * @param j Индекс элемента.
+     * @return Ссылка на элемент вектора.
+     */
+    T& operator[](int j) {
+        if (j < 0 || j >= m) throw std::out_of_range("Index out of bounds.");
+        return value[j];
+    }
+
+    /**
+     * @brief Получить размер вектора.
+     * @return Размер вектора.
+     */
+    int sizeOfVector() const { return m; }
+
+    /**
+     * @brief Выводит вектор в консоль.
+     */
+    void printVector() const {
+        std::cout << "|";
+        for (int i = 0; i < m; i++) std::cout << " " << value[i] << "|";
+        std::cout << std::endl;
+    }
+
+    /**
+     * @brief Оператор сравнения на равенство.
+     * @param otherVector Второй вектор.
+     * @return true, если векторы равны, иначе false.
+     */
+    bool operator==(const iaVector<T>& otherVector) const {
+        if (m != otherVector.m) return false;
+        for (int i = 0; i < m; i++) if (value[i] != otherVector.value[i]) return false;
+        return true;
+    }
+
+    /**
+     * @brief Оператор сравнения на неравенство.
+     * @param otherVector Второй вектор.
+     * @return true, если векторы не равны, иначе false.
+     */
+    bool operator!=(const iaVector<T>& otherVector) const { return !(*this == otherVector); }
+
+    /**
+     * @brief Инвертирует порядок элементов вектора.
+     */
+    void inverting() noexcept {
+        for (int i = 0, j = m - 1; i < j; i++, j--) std::swap(value[i], value[j]);
+    }
+
+    /**
+     * @brief Арифметические операции (+, -, *) выполняются только для числовых типов.
+     */
+    template <typename U = T, typename std::enable_if<std::is_arithmetic<U>::value, int>::type = 0>
+    iaVector<U> operator+(const iaVector<U>& otherVector) const {
+        if (m != otherVector.m) throw std::runtime_error("Vector sizes do not match");
+        iaVector<U> result(m);
+        for (int i = 0; i < m; i++) result.value[i] = value[i] + otherVector.value[i];
+        return result;
+    }
+
+    template <typename U = T, typename std::enable_if<std::is_arithmetic<U>::value, int>::type = 0>
+    iaVector<U> operator-(const iaVector<U>& otherVector) const {
+        if (m != otherVector.m) throw std::runtime_error("Vector sizes do not match");
+        iaVector<U> result(m);
+        for (int i = 0; i < m; i++) result.value[i] = value[i] - otherVector.value[i];
+        return result;
+    }
+
+    template <typename U = T, typename std::enable_if<std::is_arithmetic<U>::value, int>::type = 0>
+    iaVector<U> operator*(U scal) const {
+        iaVector<U> result(m);
+        for (int i = 0; i < m; i++) result.value[i] = value[i] * scal;
+        return result;
+    }
+
+    /**
+     * @brief Сумма элементов (только для числовых типов).
+     */
+    template <typename U = T, typename std::enable_if<std::is_arithmetic<U>::value, int>::type = 0>
+    U sum() const {
+        U sum = 0;
+        for (int i = 0; i < m; i++) sum += value[i];
+        return sum;
+    }
+
+    /**
+     * @brief L2-норма (только для числовых типов).
+     */
+    template <typename U = T, typename std::enable_if<std::is_arithmetic<U>::value, int>::type = 0>
+    U L2norm() const {
+        U sum = 0;
+        for (int i = 0; i < m; i++) sum += value[i] * value[i];
+        return std::sqrt(sum);
+    }
+
+    /**
+     * @brief L1-норма (только для числовых типов).
+     */
+    template <typename U = T, typename std::enable_if<std::is_arithmetic<U>::value, int>::type = 0>
+    U L1norm() const {
+        U sum = 0;
+        for (int i = 0; i < m; i++) sum += std::abs(value[i]);
+        return sum;
+    }
+
+    /**
+     * @brief Максимальная норма (L∞) (только для числовых типов).
+     */
+    template <typename U = T, typename std::enable_if<std::is_arithmetic<U>::value, int>::type = 0>
+    U LMnorm() const {
+        U max = std::abs(value[0]);
+        for (int i = 1; i < m; i++) if (std::abs(value[i]) > max) max = std::abs(value[i]);
+        return max;
+    }
+
+private:
+    int m; ///< Размер вектора
+    T* value; ///< Указатель на массив элементов вектора
+};
+
+#endif /* iaVector_hpp */

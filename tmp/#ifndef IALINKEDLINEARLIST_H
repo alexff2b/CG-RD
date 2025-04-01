@@ -1,0 +1,28 @@
+#ifndef IALINKEDLINEARLIST_H
+#define IALINKEDLINEARLIST_H
+
+// Структура узла двусвязного списка
+struct Node {
+    int data;           // Данные узла
+    struct Node* prev;  // Указатель на предыдущий узел
+    struct Node* next;  // Указатель на следующий узел
+};
+
+// Функции для работы с двусвязным списком
+
+// Создание нового узла
+struct Node* createNode(int value);
+
+// Добавление узла в конец списка
+void appendNode(struct Node** head, int value);
+
+// Вывод списка в прямом порядке
+void printList(struct Node* head);
+
+// Вывод списка в обратном порядке
+void printListBackward(struct Node* head);
+
+// Удаление списка и освобождение памяти
+void deleteList(struct Node* head);
+
+#endif // IALINKEDLINEARLIST_H

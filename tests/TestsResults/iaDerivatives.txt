@@ -1,0 +1,177 @@
+▶ Тестирование производных от функций активации:
+
+Считанные значения:
+[ 1e+10 1e+15 1e+20 -1e+10 -1e+15 -1e+20 1e-10 1e-15 1e-20 0 ]
+
+▶ Результаты вычислений производных для значений:
+--------------------
+x = 10000000000.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 1.000000
+▶ derSigmoid: 0.000000
+▶ derTanh: 0.000000
+▶ derArctanh: Ошибка: Арктангенс не определен для |x| >= 1. Получено значение: 10000000000.000000
+▶ derSoftsign: 0.000000
+▶ derRelu: 1.000000
+▶ derLrelu: 1.000000
+▶ derHardSwish: 1.000000
+▶ derSoftShrinkr: 1.000000
+▶ derIsru: 0.000000
+▶ derRrelu: 1.000000
+▶ derSelu: 0.100000
+--------------------
+x = 1000000000000000.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 1.000000
+▶ derSigmoid: 0.000000
+▶ derTanh: 0.000000
+▶ derArctanh: Ошибка: Арктангенс не определен для |x| >= 1. Получено значение: 1000000000000000.000000
+▶ derSoftsign: 0.000000
+▶ derRelu: 1.000000
+▶ derLrelu: 1.000000
+▶ derHardSwish: 1.000000
+▶ derSoftShrinkr: 1.000000
+▶ derIsru: 0.000000
+▶ derRrelu: 1.000000
+▶ derSelu: 0.100000
+--------------------
+x = 100000000000000000000.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 1.000000
+▶ derSigmoid: 0.000000
+▶ derTanh: 0.000000
+▶ derArctanh: Ошибка: Арктангенс не определен для |x| >= 1. Получено значение: 100000000000000000000.000000
+▶ derSoftsign: 0.000000
+▶ derRelu: 1.000000
+▶ derLrelu: 1.000000
+▶ derHardSwish: 1.000000
+▶ derSoftShrinkr: 1.000000
+▶ derIsru: 0.000000
+▶ derRrelu: 1.000000
+▶ derSelu: 0.100000
+--------------------
+x = -10000000000.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 0.000000
+▶ derSigmoid: 0.000000
+▶ derTanh: 0.000000
+▶ derArctanh: Ошибка: Арктангенс не определен для |x| >= 1. Получено значение: -10000000000.000000
+▶ derSoftsign: 0.000000
+▶ derRelu: 0.000000
+▶ derLrelu: 0.010000
+▶ derHardSwish: 0.000000
+▶ derSoftShrinkr: -1.000000
+▶ derIsru: 0.000000
+▶ derRrelu: 1.673260
+▶ derSelu: 0.000000
+--------------------
+x = -1000000000000000.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 0.000000
+▶ derSigmoid: 0.000000
+▶ derTanh: 0.000000
+▶ derArctanh: Ошибка: Арктангенс не определен для |x| >= 1. Получено значение: -1000000000000000.000000
+▶ derSoftsign: 0.000000
+▶ derRelu: 0.000000
+▶ derLrelu: 0.010000
+▶ derHardSwish: 0.000000
+▶ derSoftShrinkr: -1.000000
+▶ derIsru: 0.000000
+▶ derRrelu: 1.673260
+▶ derSelu: 0.000000
+--------------------
+x = -100000000000000000000.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 0.000000
+▶ derSigmoid: 0.000000
+▶ derTanh: 0.000000
+▶ derArctanh: Ошибка: Арктангенс не определен для |x| >= 1. Получено значение: -100000000000000000000.000000
+▶ derSoftsign: 0.000000
+▶ derRelu: 0.000000
+▶ derLrelu: 0.010000
+▶ derHardSwish: 0.000000
+▶ derSoftShrinkr: -1.000000
+▶ derIsru: 0.000000
+▶ derRrelu: 1.673260
+▶ derSelu: 0.000000
+--------------------
+x = 0.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 1.000000
+▶ derSigmoid: 0.250000
+▶ derTanh: 1.000000
+▶ derArctanh: 1.000000
+▶ derSoftsign: 1.000000
+▶ derRelu: 1.000000
+▶ derLrelu: 1.000000
+▶ derHardSwish: 0.500000
+▶ derSoftShrinkr: 0.000000
+▶ derIsru: 1.000000
+▶ derRrelu: 1.000000
+▶ derSelu: 0.100000
+--------------------
+x = 0.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 1.000000
+▶ derSigmoid: 0.250000
+▶ derTanh: 1.000000
+▶ derArctanh: 1.000000
+▶ derSoftsign: 1.000000
+▶ derRelu: 1.000000
+▶ derLrelu: 1.000000
+▶ derHardSwish: 0.500000
+▶ derSoftShrinkr: 0.000000
+▶ derIsru: 1.000000
+▶ derRrelu: 1.000000
+▶ derSelu: 0.100000
+--------------------
+x = 0.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 1.000000
+▶ derSigmoid: 0.250000
+▶ derTanh: 1.000000
+▶ derArctanh: 1.000000
+▶ derSoftsign: 1.000000
+▶ derRelu: 1.000000
+▶ derLrelu: 1.000000
+▶ derHardSwish: 0.500000
+▶ derSoftShrinkr: 0.000000
+▶ derIsru: 1.000000
+▶ derRrelu: 1.000000
+▶ derSelu: 0.100000
+--------------------
+x = 0.000000
+λ = 1.050700
+α = 1.673260
+▶ derIdentity: 1.000000
+▶ derHeaviside: 0.000000
+▶ derSigmoid: 0.250000
+▶ derTanh: 1.000000
+▶ derArctanh: 1.000000
+▶ derSoftsign: 1.000000
+▶ derRelu: 1.000000
+▶ derLrelu: 1.000000
+▶ derHardSwish: 0.500000
+▶ derSoftShrinkr: 0.000000
+▶ derIsru: 1.000000
+▶ derRrelu: 1.000000
+▶ derSelu: 0.100000
+

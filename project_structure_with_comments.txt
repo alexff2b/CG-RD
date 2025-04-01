@@ -1,0 +1,735 @@
+# Структура проекта
+# Ниже представлена структура папок и файлов с пояснениями.
+
+.
+# Каталог: .
+./Documentations
+# Каталог: ./Documentations
+./iaAi
+# Каталог: ./iaAi
+./iaAi/iaMl
+# Каталог: ./iaAi/iaMl
+./iaAi/iaMl/iaPerceptron
+# Каталог: ./iaAi/iaMl/iaPerceptron
+./iaAi/iaMl/iaDataStructures
+# Каталог: ./iaAi/iaMl/iaDataStructures
+./iaAi/iaMl/iaDataStructures/iaQueue
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaQueue
+./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue
+./iaAi/iaMl/iaDataStructures/iaQueue/iaPriorityQueue
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaQueue/iaPriorityQueue
+./iaAi/iaMl/iaDataStructures/iaHashTable
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaHashTable
+./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable
+./iaAi/iaMl/iaDataStructures/iaStack
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaStack
+./iaAi/iaMl/iaDataStructures/iaStack/iaStack
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaStack/iaStack
+./iaAi/iaMl/iaDataStructures/iaArray
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaArray
+./iaAi/iaMl/iaDataStructures/iaArray/iaArray
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaArray/iaArray
+./iaAi/iaMl/iaDataStructures/iaGraph
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaGraph
+./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph
+./iaAi/iaMl/iaDataStructures/iaGraph/iaDirectedGraph
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaGraph/iaDirectedGraph
+./iaAi/iaMl/iaDataStructures/iaTree
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaTree
+./iaAi/iaMl/iaDataStructures/iaLinkedList
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaLinkedList
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaDoublyLinkedList
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaDoublyLinkedList
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaCircularLinkedList
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaCircularLinkedList
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList
+# Каталог: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList
+./iaAi/iaMl/iaMemory
+# Каталог: ./iaAi/iaMl/iaMemory
+./iaAi/iaMl/iaLanguageProcessing
+# Каталог: ./iaAi/iaMl/iaLanguageProcessing
+./iaAi/iaMl/iaSpeechSynthesis
+# Каталог: ./iaAi/iaMl/iaSpeechSynthesis
+./iaAi/iaMl/iaNeuralNetworks
+# Каталог: ./iaAi/iaMl/iaNeuralNetworks
+./iaAi/iaMl/iaMemoryObject
+# Каталог: ./iaAi/iaMl/iaMemoryObject
+./iaAi/iaMl/iaToken
+# Каталог: ./iaAi/iaMl/iaToken
+./iaAi/iaMl/iaLexer
+# Каталог: ./iaAi/iaMl/iaLexer
+./iaAi/iaMl/iaObjectRecognition
+# Каталог: ./iaAi/iaMl/iaObjectRecognition
+./iaAi/iaOs
+# Каталог: ./iaAi/iaOs
+./iaAi/iaScience
+# Каталог: ./iaAi/iaScience
+./iaAi/iaScience/iaGeneticModeling
+# Каталог: ./iaAi/iaScience/iaGeneticModeling
+./iaAi/iaScience/iaEnergySystems
+# Каталог: ./iaAi/iaScience/iaEnergySystems
+./iaAi/iaScience/iaAstrobiology
+# Каталог: ./iaAi/iaScience/iaAstrobiology
+./iaAi/iaScience/iaGeophysics
+# Каталог: ./iaAi/iaScience/iaGeophysics
+./iaAi/iaScience/iaClimateModeling
+# Каталог: ./iaAi/iaScience/iaClimateModeling
+./iaAi/iaScience/iaAeroPhysics
+# Каталог: ./iaAi/iaScience/iaAeroPhysics
+./iaAi/iaScience/iaMathematicalModeling
+# Каталог: ./iaAi/iaScience/iaMathematicalModeling
+./iaAi/iaScience/iaOrbitalMechanics
+# Каталог: ./iaAi/iaScience/iaOrbitalMechanics
+./iaAi/iaScience/iaGIS
+# Каталог: ./iaAi/iaScience/iaGIS
+./iaAi/iaScience/iaQuantumPhysics
+# Каталог: ./iaAi/iaScience/iaQuantumPhysics
+./iaAi/iaScience/iaNewtonianPhysics
+# Каталог: ./iaAi/iaScience/iaNewtonianPhysics
+./iaAi/iaScience/iaProbabilityTheory
+# Каталог: ./iaAi/iaScience/iaProbabilityTheory
+./iaAi/iaScience/iaStatistics
+# Каталог: ./iaAi/iaScience/iaStatistics
+./iaAi/iaScience/iaChemistry
+# Каталог: ./iaAi/iaScience/iaChemistry
+./iaAi/iaScience/iaBiochemicalModeling
+# Каталог: ./iaAi/iaScience/iaBiochemicalModeling
+./iaAi/iaScience/iaNeuroscienceModeling
+# Каталог: ./iaAi/iaScience/iaNeuroscienceModeling
+./iaAi/iaMath
+# Каталог: ./iaAi/iaMath
+./iaAi/iaMath/iaFunctions
+# Каталог: ./iaAi/iaMath/iaFunctions
+./iaAi/iaMath/iaLinearAlgebra
+# Каталог: ./iaAi/iaMath/iaLinearAlgebra
+./iaAi/iaMath/iaLinearAlgebra/iaComplex
+# Каталог: ./iaAi/iaMath/iaLinearAlgebra/iaComplex
+./iaAi/iaMath/iaLinearAlgebra/iaVector
+# Каталог: ./iaAi/iaMath/iaLinearAlgebra/iaVector
+./iaAi/iaMath/iaProbability
+# Каталог: ./iaAi/iaMath/iaProbability
+./iaAi/iaMath/iaStatistics
+# Каталог: ./iaAi/iaMath/iaStatistics
+./iaAi/iaMath/tmp
+# Каталог: ./iaAi/iaMath/tmp
+./iaAi/iaGis
+# Каталог: ./iaAi/iaGis
+./iaAi/iaPhysics
+# Каталог: ./iaAi/iaPhysics
+./iaAi/iaPhysics/iaAstrophysics
+# Каталог: ./iaAi/iaPhysics/iaAstrophysics
+./iaAi/iaPhysics/iaNewtonian
+# Каталог: ./iaAi/iaPhysics/iaNewtonian
+./iaAi/iaPhysics/iaQuantum
+# Каталог: ./iaAi/iaPhysics/iaQuantum
+./iaAi/iaDatabase
+# Каталог: ./iaAi/iaDatabase
+./iaAi/iaSimulation
+# Каталог: ./iaAi/iaSimulation
+./iaAi/DataClasses
+# Каталог: ./iaAi/DataClasses
+./test
+# Каталог: ./test
+./test/iaFunctionsTest
+# Каталог: ./test/iaFunctionsTest
+./iaOs
+# Каталог: ./iaOs
+./iaOs/iaDrivers
+# Каталог: ./iaOs/iaDrivers
+./iaOs/iaDrivers/nbproject
+# Каталог: ./iaOs/iaDrivers/nbproject
+./iaOs/iaDrivers/nbproject/private
+# Каталог: ./iaOs/iaDrivers/nbproject/private
+./iaOs/iaFileSystem
+# Каталог: ./iaOs/iaFileSystem
+./iaOs/iaKernel
+# Каталог: ./iaOs/iaKernel
+./iaOs/iaSecurity
+# Каталог: ./iaOs/iaSecurity
+./iaOs/iaNetworking
+# Каталог: ./iaOs/iaNetworking
+./iaScience
+# Каталог: ./iaScience
+./iaScience/iaGeneticModeling
+# Каталог: ./iaScience/iaGeneticModeling
+./iaScience/iaEnergySystems
+# Каталог: ./iaScience/iaEnergySystems
+./iaScience/iaAstrobiology
+# Каталог: ./iaScience/iaAstrobiology
+./iaScience/iaGeophysics
+# Каталог: ./iaScience/iaGeophysics
+./iaScience/iaClimateModeling
+# Каталог: ./iaScience/iaClimateModeling
+./iaScience/iaAeroPhysics
+# Каталог: ./iaScience/iaAeroPhysics
+./iaScience/iaMathematicalModeling
+# Каталог: ./iaScience/iaMathematicalModeling
+./iaScience/iaOrbitalMechanics
+# Каталог: ./iaScience/iaOrbitalMechanics
+./iaScience/iaGIS
+# Каталог: ./iaScience/iaGIS
+./iaScience/iaQuantumPhysics
+# Каталог: ./iaScience/iaQuantumPhysics
+./iaScience/iaNewtonianPhysics
+# Каталог: ./iaScience/iaNewtonianPhysics
+./iaScience/iaProbabilityTheory
+# Каталог: ./iaScience/iaProbabilityTheory
+./iaScience/iaStatistics
+# Каталог: ./iaScience/iaStatistics
+./iaScience/iaChemistry
+# Каталог: ./iaScience/iaChemistry
+./iaScience/iaBiochemicalModeling
+# Каталог: ./iaScience/iaBiochemicalModeling
+./iaScience/iaNeuroscienceModeling
+# Каталог: ./iaScience/iaNeuroscienceModeling
+./tests
+# Каталог: ./tests
+./tests/iaVectorTest
+# Каталог: ./tests/iaVectorTest
+./tests/iaComplexTest
+# Каталог: ./tests/iaComplexTest
+./tests/TestsDatas
+# Каталог: ./tests/TestsDatas
+./tests/TestsResults
+# Каталог: ./tests/TestsResults
+./scripts
+# Каталог: ./scripts
+./scripts/python
+# Каталог: ./scripts/python
+./scripts/shell
+# Каталог: ./scripts/shell
+./iaSecurity
+# Каталог: ./iaSecurity
+./iaSecurity/iaBlockchain
+# Каталог: ./iaSecurity/iaBlockchain
+./iaSecurity/iaPostQuantumCryptography
+# Каталог: ./iaSecurity/iaPostQuantumCryptography
+./iaSecurity/iaCryptography
+# Каталог: ./iaSecurity/iaCryptography
+./iaSecurity/iaDataProtection
+# Каталог: ./iaSecurity/iaDataProtection
+./iaSecurity/iaSecureProtocols
+# Каталог: ./iaSecurity/iaSecureProtocols
+./Documentations/.DS_Store
+# Файл: ./Documentations/.DS_Store
+./iaAi/iaMl/iaPerceptron/iaPerceptron.cpp
+# Файл: ./iaAi/iaMl/iaPerceptron/iaPerceptron.cpp
+./iaAi/iaMl/iaPerceptron/.DS_Store
+# Файл: ./iaAi/iaMl/iaPerceptron/.DS_Store
+./iaAi/iaMl/iaPerceptron/iaPerceptron.hpp
+# Файл: ./iaAi/iaMl/iaPerceptron/iaPerceptron.hpp
+./iaAi/iaMl/.DS_Store
+# Файл: ./iaAi/iaMl/.DS_Store
+./iaAi/iaMl/iaDataStructures/.DS_Store
+# Файл: ./iaAi/iaMl/iaDataStructures/.DS_Store
+./iaAi/iaMl/iaDataStructures/iaDataStructures.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaDataStructures.h
+./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue/iaQueue.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue/iaQueue.c
+./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue/iaQueue.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue/iaQueue.h
+./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue.c
+./iaAi/iaMl/iaDataStructures/iaQueue/iaPriorityQueue/iaPriorityQueue.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaQueue/iaPriorityQueue/iaPriorityQueue.c
+./iaAi/iaMl/iaDataStructures/iaQueue/iaPriorityQueue/iaPriorityQueue.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaQueue/iaPriorityQueue/iaPriorityQueue.h
+./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaQueue/iaQueue.h
+./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable.c
+./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable/iaHashTable.hpp
+# Файл: ./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable/iaHashTable.hpp
+./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable/iaHashTable.cpp
+# Файл: ./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable/iaHashTable.cpp
+./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaHashTable/iaHashTable.h
+./iaAi/iaMl/iaDataStructures/iaStack/iaStack.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaStack/iaStack.c
+./iaAi/iaMl/iaDataStructures/iaStack/iaStack/iaStack.hpp
+# Файл: ./iaAi/iaMl/iaDataStructures/iaStack/iaStack/iaStack.hpp
+./iaAi/iaMl/iaDataStructures/iaStack/iaStack/iaStack.cpp
+# Файл: ./iaAi/iaMl/iaDataStructures/iaStack/iaStack/iaStack.cpp
+./iaAi/iaMl/iaDataStructures/iaStack/iaStack.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaStack/iaStack.h
+./iaAi/iaMl/iaDataStructures/iaDataStructures.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaDataStructures.c
+./iaAi/iaMl/iaDataStructures/iaArray/iaArray.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaArray/iaArray.c
+./iaAi/iaMl/iaDataStructures/iaArray/iaArray.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaArray/iaArray.h
+./iaAi/iaMl/iaDataStructures/iaArray/iaArray/iaArray.cpp
+# Файл: ./iaAi/iaMl/iaDataStructures/iaArray/iaArray/iaArray.cpp
+./iaAi/iaMl/iaDataStructures/iaArray/iaArray/iaArray.hpp
+# Файл: ./iaAi/iaMl/iaDataStructures/iaArray/iaArray/iaArray.hpp
+./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph.h
+./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph/iaGraph.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph/iaGraph.h
+./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph/iaGraph.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph/iaGraph.c
+./iaAi/iaMl/iaDataStructures/iaGraph/iaDirectedGraph/iaDirectedGraph.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaGraph/iaDirectedGraph/iaDirectedGraph.c
+./iaAi/iaMl/iaDataStructures/iaGraph/iaDirectedGraph/iaDirectedGraph.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaGraph/iaDirectedGraph/iaDirectedGraph.h
+./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaGraph/iaGraph.c
+./iaAi/iaMl/iaDataStructures/iaTree/iaTree.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaTree/iaTree.h
+./iaAi/iaMl/iaDataStructures/iaTree/iaTree.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaTree/iaTree.c
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaDoublyLinkedList/iaDoublyLinkedList.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaDoublyLinkedList/iaDoublyLinkedList.c
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaDoublyLinkedList/iaDoublyLinkedList.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaDoublyLinkedList/iaDoublyLinkedList.h
+./iaAi/iaMl/iaDataStructures/iaLinkedList/.DS_Store
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/.DS_Store
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaLinkedList.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaLinkedList.h
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaCircularLinkedList/iaCircularLinkedList.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaCircularLinkedList/iaCircularLinkedList.h
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaCircularLinkedList/iaCircularLinkedList.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaCircularLinkedList/iaCircularLinkedList.c
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/makefile
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/makefile
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedLinearList.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedLinearList.c
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaSinglyLinkedList.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaSinglyLinkedList.h
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/main.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/main.c
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedList.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedList.c
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaSinglyLinkedList.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaSinglyLinkedList.c
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedLinearList.h
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedLinearList.h
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedList
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaSinglyLinkedList/iaLinkedList
+./iaAi/iaMl/iaDataStructures/iaLinkedList/iaLinkedList.c
+# Файл: ./iaAi/iaMl/iaDataStructures/iaLinkedList/iaLinkedList.c
+./iaAi/iaMl/iaMemory/iaMemory.hpp
+# Файл: ./iaAi/iaMl/iaMemory/iaMemory.hpp
+./iaAi/iaMl/iaMemory/iaMemory.cpp
+# Файл: ./iaAi/iaMl/iaMemory/iaMemory.cpp
+./iaAi/iaMl/iaLanguageProcessing/iaLanguageProcessing.hpp
+# Файл: ./iaAi/iaMl/iaLanguageProcessing/iaLanguageProcessing.hpp
+./iaAi/iaMl/iaLanguageProcessing/iaLanguageProcessing.cpp
+# Файл: ./iaAi/iaMl/iaLanguageProcessing/iaLanguageProcessing.cpp
+./iaAi/iaMl/iaSpeechSynthesis/iaSpeechSynthesis.hpp
+# Файл: ./iaAi/iaMl/iaSpeechSynthesis/iaSpeechSynthesis.hpp
+./iaAi/iaMl/iaSpeechSynthesis/iaSpeechSynthesis.cpp
+# Файл: ./iaAi/iaMl/iaSpeechSynthesis/iaSpeechSynthesis.cpp
+./iaAi/iaMl/iaNeuralNetworks/iaNeuralNetworks.hpp
+# Файл: ./iaAi/iaMl/iaNeuralNetworks/iaNeuralNetworks.hpp
+./iaAi/iaMl/iaNeuralNetworks/iaNeuralNetworks.cpp
+# Файл: ./iaAi/iaMl/iaNeuralNetworks/iaNeuralNetworks.cpp
+./iaAi/iaMl/iaMemoryObject/iaMemoryObject.hpp
+# Файл: ./iaAi/iaMl/iaMemoryObject/iaMemoryObject.hpp
+./iaAi/iaMl/iaMemoryObject/iaMemoryObject.cpp
+# Файл: ./iaAi/iaMl/iaMemoryObject/iaMemoryObject.cpp
+./iaAi/iaMl/iaToken/.DS_Store
+# Файл: ./iaAi/iaMl/iaToken/.DS_Store
+./iaAi/iaMl/iaToken/iaToken.cpp
+# Файл: ./iaAi/iaMl/iaToken/iaToken.cpp
+./iaAi/iaMl/iaToken/iaToken.hpp
+# Файл: ./iaAi/iaMl/iaToken/iaToken.hpp
+./iaAi/iaMl/addfiles.py
+# Файл: ./iaAi/iaMl/addfiles.py
+./iaAi/iaMl/iaLexer/.DS_Store
+# Файл: ./iaAi/iaMl/iaLexer/.DS_Store
+./iaAi/iaMl/iaLexer/iaLexer.hpp
+# Файл: ./iaAi/iaMl/iaLexer/iaLexer.hpp
+./iaAi/iaMl/iaLexer/iaLexer.cpp
+# Файл: ./iaAi/iaMl/iaLexer/iaLexer.cpp
+./iaAi/iaMl/iaObjectRecognition/iaObjectRecognition.hpp
+# Файл: ./iaAi/iaMl/iaObjectRecognition/iaObjectRecognition.hpp
+./iaAi/iaMl/iaObjectRecognition/iaObjectRecognition.cpp
+# Файл: ./iaAi/iaMl/iaObjectRecognition/iaObjectRecognition.cpp
+./iaAi/.DS_Store
+# Файл: ./iaAi/.DS_Store
+./iaAi/iaOs/iaOs.cpp
+# Файл: ./iaAi/iaOs/iaOs.cpp
+./iaAi/iaOs/iaOs.hpp
+# Файл: ./iaAi/iaOs/iaOs.hpp
+./iaAi/iaScience/iaGeneticModeling/iaGeneticModeling.hpp
+# Файл: ./iaAi/iaScience/iaGeneticModeling/iaGeneticModeling.hpp
+./iaAi/iaScience/iaGeneticModeling/iaGeneticModeling.cpp
+# Файл: ./iaAi/iaScience/iaGeneticModeling/iaGeneticModeling.cpp
+./iaAi/iaScience/iaEnergySystems/iaEnergySystems.cpp
+# Файл: ./iaAi/iaScience/iaEnergySystems/iaEnergySystems.cpp
+./iaAi/iaScience/iaEnergySystems/iaEnergySystems.hpp
+# Файл: ./iaAi/iaScience/iaEnergySystems/iaEnergySystems.hpp
+./iaAi/iaScience/iaAstrobiology/iaAstrobiology.cpp
+# Файл: ./iaAi/iaScience/iaAstrobiology/iaAstrobiology.cpp
+./iaAi/iaScience/iaAstrobiology/iaAstrobiology.hpp
+# Файл: ./iaAi/iaScience/iaAstrobiology/iaAstrobiology.hpp
+./iaAi/iaScience/iaGeophysics/iaGeophysics.cpp
+# Файл: ./iaAi/iaScience/iaGeophysics/iaGeophysics.cpp
+./iaAi/iaScience/iaGeophysics/iaGeophysics.hpp
+# Файл: ./iaAi/iaScience/iaGeophysics/iaGeophysics.hpp
+./iaAi/iaScience/iaClimateModeling/iaClimateModeling.hpp
+# Файл: ./iaAi/iaScience/iaClimateModeling/iaClimateModeling.hpp
+./iaAi/iaScience/iaClimateModeling/iaClimateModeling.cpp
+# Файл: ./iaAi/iaScience/iaClimateModeling/iaClimateModeling.cpp
+./iaAi/iaScience/iaAeroPhysics/iaAeroPhysics.cpp
+# Файл: ./iaAi/iaScience/iaAeroPhysics/iaAeroPhysics.cpp
+./iaAi/iaScience/iaAeroPhysics/iaAeroPhysics.hpp
+# Файл: ./iaAi/iaScience/iaAeroPhysics/iaAeroPhysics.hpp
+./iaAi/iaScience/iaMathematicalModeling/iaMathematicalModeling.cpp
+# Файл: ./iaAi/iaScience/iaMathematicalModeling/iaMathematicalModeling.cpp
+./iaAi/iaScience/iaMathematicalModeling/iaMathematicalModeling.hpp
+# Файл: ./iaAi/iaScience/iaMathematicalModeling/iaMathematicalModeling.hpp
+./iaAi/iaScience/iaOrbitalMechanics/iaOrbitalMechanics.cpp
+# Файл: ./iaAi/iaScience/iaOrbitalMechanics/iaOrbitalMechanics.cpp
+./iaAi/iaScience/iaOrbitalMechanics/iaOrbitalMechanics.hpp
+# Файл: ./iaAi/iaScience/iaOrbitalMechanics/iaOrbitalMechanics.hpp
+./iaAi/iaScience/iaGIS/iaGIS.hpp
+# Файл: ./iaAi/iaScience/iaGIS/iaGIS.hpp
+./iaAi/iaScience/iaGIS/iaGIS.cpp
+# Файл: ./iaAi/iaScience/iaGIS/iaGIS.cpp
+./iaAi/iaScience/iaQuantumPhysics/iaQuantumPhysics.hpp
+# Файл: ./iaAi/iaScience/iaQuantumPhysics/iaQuantumPhysics.hpp
+./iaAi/iaScience/iaQuantumPhysics/iaQuantumPhysics.cpp
+# Файл: ./iaAi/iaScience/iaQuantumPhysics/iaQuantumPhysics.cpp
+./iaAi/iaScience/iaNewtonianPhysics/iaNewtonianPhysics.cpp
+# Файл: ./iaAi/iaScience/iaNewtonianPhysics/iaNewtonianPhysics.cpp
+./iaAi/iaScience/iaNewtonianPhysics/iaNewtonianPhysics.hpp
+# Файл: ./iaAi/iaScience/iaNewtonianPhysics/iaNewtonianPhysics.hpp
+./iaAi/iaScience/iaProbabilityTheory/iaProbabilityTheory.hpp
+# Файл: ./iaAi/iaScience/iaProbabilityTheory/iaProbabilityTheory.hpp
+./iaAi/iaScience/iaProbabilityTheory/iaProbabilityTheory.cpp
+# Файл: ./iaAi/iaScience/iaProbabilityTheory/iaProbabilityTheory.cpp
+./iaAi/iaScience/iaStatistics/iaStatistics.cpp
+# Файл: ./iaAi/iaScience/iaStatistics/iaStatistics.cpp
+./iaAi/iaScience/iaStatistics/iaStatistics.hpp
+# Файл: ./iaAi/iaScience/iaStatistics/iaStatistics.hpp
+./iaAi/iaScience/iaChemistry/iaChemistry.hpp
+# Файл: ./iaAi/iaScience/iaChemistry/iaChemistry.hpp
+./iaAi/iaScience/iaChemistry/iaChemistry.cpp
+# Файл: ./iaAi/iaScience/iaChemistry/iaChemistry.cpp
+./iaAi/iaScience/iaBiochemicalModeling/iaBiochemicalModeling.cpp
+# Файл: ./iaAi/iaScience/iaBiochemicalModeling/iaBiochemicalModeling.cpp
+./iaAi/iaScience/iaBiochemicalModeling/iaBiochemicalModeling.hpp
+# Файл: ./iaAi/iaScience/iaBiochemicalModeling/iaBiochemicalModeling.hpp
+./iaAi/iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.hpp
+# Файл: ./iaAi/iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.hpp
+./iaAi/iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.cpp
+# Файл: ./iaAi/iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.cpp
+./iaAi/iaMath/.DS_Store
+# Файл: ./iaAi/iaMath/.DS_Store
+./iaAi/iaMath/iaFunctions/utils.cpp
+# Файл: ./iaAi/iaMath/iaFunctions/utils.cpp
+./iaAi/iaMath/iaFunctions/derivatives.cpp
+# Файл: ./iaAi/iaMath/iaFunctions/derivatives.cpp
+./iaAi/iaMath/iaFunctions/activation_functions.hpp
+# Файл: ./iaAi/iaMath/iaFunctions/activation_functions.hpp
+./iaAi/iaMath/iaFunctions/activation_functions.cpp
+# Файл: ./iaAi/iaMath/iaFunctions/activation_functions.cpp
+./iaAi/iaMath/iaFunctions/utils.hpp
+# Файл: ./iaAi/iaMath/iaFunctions/utils.hpp
+./iaAi/iaMath/iaFunctions/derivatives.hpp
+# Файл: ./iaAi/iaMath/iaFunctions/derivatives.hpp
+./iaAi/iaMath/iaLinearAlgebra/.DS_Store
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/.DS_Store
+./iaAi/iaMath/iaLinearAlgebra/iaComplex/iaComplex.cpp
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaComplex/iaComplex.cpp
+./iaAi/iaMath/iaLinearAlgebra/iaComplex/TODO.md
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaComplex/TODO.md
+./iaAi/iaMath/iaLinearAlgebra/iaComplex/README.md
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaComplex/README.md
+./iaAi/iaMath/iaLinearAlgebra/iaComplex/iaComplex.hpp
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaComplex/iaComplex.hpp
+./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector_hpp
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector_hpp
+./iaAi/iaMath/iaLinearAlgebra/iaVector/.DS_Store
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/.DS_Store
+./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector_hpp2
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector_hpp2
+./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector3.hpp
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector3.hpp
+./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector3.cpp
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector3.cpp
+./iaAi/iaMath/iaLinearAlgebra/iaVector/IAVECTOR_HPP0
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/IAVECTOR_HPP0
+./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector_hpp1
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector_hpp1
+./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector.hpp
+# Файл: ./iaAi/iaMath/iaLinearAlgebra/iaVector/iaVector.hpp
+./iaAi/iaMath/iaProbability/iaProbability.hpp
+# Файл: ./iaAi/iaMath/iaProbability/iaProbability.hpp
+./iaAi/iaMath/iaProbability/iaProbability.cpp
+# Файл: ./iaAi/iaMath/iaProbability/iaProbability.cpp
+./iaAi/iaMath/iaStatistics/iaStatistics.cpp
+# Файл: ./iaAi/iaMath/iaStatistics/iaStatistics.cpp
+./iaAi/iaMath/iaStatistics/iaStatistics.hpp
+# Файл: ./iaAi/iaMath/iaStatistics/iaStatistics.hpp
+./iaAi/iaMath/tmp/iaMatrix.cpp
+# Файл: ./iaAi/iaMath/tmp/iaMatrix.cpp
+./iaAi/iaMath/tmp/iaApplic.cpp
+# Файл: ./iaAi/iaMath/tmp/iaApplic.cpp
+./iaAi/iaMath/tmp/iaLinear.hpp
+# Файл: ./iaAi/iaMath/tmp/iaLinear.hpp
+./iaAi/iaMath/tmp/iaApplic.hpp
+# Файл: ./iaAi/iaMath/tmp/iaApplic.hpp
+./iaAi/iaMath/tmp/iaLinear.cpp
+# Файл: ./iaAi/iaMath/tmp/iaLinear.cpp
+./iaAi/iaGis/iaGis.hpp
+# Файл: ./iaAi/iaGis/iaGis.hpp
+./iaAi/iaGis/iaGis.cpp
+# Файл: ./iaAi/iaGis/iaGis.cpp
+./iaAi/iaPhysics/iaAstrophysics/iaAstrophysics.hpp
+# Файл: ./iaAi/iaPhysics/iaAstrophysics/iaAstrophysics.hpp
+./iaAi/iaPhysics/iaAstrophysics/iaAstrophysics.cpp
+# Файл: ./iaAi/iaPhysics/iaAstrophysics/iaAstrophysics.cpp
+./iaAi/iaPhysics/iaNewtonian/iaNewtonian.cpp
+# Файл: ./iaAi/iaPhysics/iaNewtonian/iaNewtonian.cpp
+./iaAi/iaPhysics/iaNewtonian/iaNewtonian.hpp
+# Файл: ./iaAi/iaPhysics/iaNewtonian/iaNewtonian.hpp
+./iaAi/iaPhysics/iaQuantum/iaQuantum.hpp
+# Файл: ./iaAi/iaPhysics/iaQuantum/iaQuantum.hpp
+./iaAi/iaPhysics/iaQuantum/iaQuantum.cpp
+# Файл: ./iaAi/iaPhysics/iaQuantum/iaQuantum.cpp
+./iaAi/iaDatabase/.DS_Store
+# Файл: ./iaAi/iaDatabase/.DS_Store
+./iaAi/iaSimulation/.DS_Store
+# Файл: ./iaAi/iaSimulation/.DS_Store
+./iaAi/DataClasses/iaArray.cpp
+# Файл: ./iaAi/DataClasses/iaArray.cpp
+./iaAi/DataClasses/iaLinkedList.cpp
+# Файл: ./iaAi/DataClasses/iaLinkedList.cpp
+./iaAi/DataClasses/iaArray.hpp
+# Файл: ./iaAi/DataClasses/iaArray.hpp
+./iaAi/DataClasses/iaLinkedList.hpp
+# Файл: ./iaAi/DataClasses/iaLinkedList.hpp
+./LICENSE
+# Файл: ./LICENSE
+./test/iaFunctionsTest/iaFunctionsTest.cpp
+# Файл: ./test/iaFunctionsTest/iaFunctionsTest.cpp
+./iaOs/.DS_Store
+# Файл: ./iaOs/.DS_Store
+./iaOs/iaDrivers/.DS_Store
+# Файл: ./iaOs/iaDrivers/.DS_Store
+./iaOs/iaDrivers/Makefile
+# Файл: ./iaOs/iaDrivers/Makefile
+./iaOs/iaDrivers/main.c
+# Файл: ./iaOs/iaDrivers/main.c
+./iaOs/iaDrivers/nbproject/Makefile-variables.mk
+# Файл: ./iaOs/iaDrivers/nbproject/Makefile-variables.mk
+./iaOs/iaDrivers/nbproject/.DS_Store
+# Файл: ./iaOs/iaDrivers/nbproject/.DS_Store
+./iaOs/iaDrivers/nbproject/Makefile-impl.mk
+# Файл: ./iaOs/iaDrivers/nbproject/Makefile-impl.mk
+./iaOs/iaDrivers/nbproject/Makefile-default.mk
+# Файл: ./iaOs/iaDrivers/nbproject/Makefile-default.mk
+./iaOs/iaDrivers/nbproject/project.xml
+# Файл: ./iaOs/iaDrivers/nbproject/project.xml
+./iaOs/iaDrivers/nbproject/private/private.xml
+# Файл: ./iaOs/iaDrivers/nbproject/private/private.xml
+./iaOs/iaDrivers/nbproject/private/configurations.xml
+# Файл: ./iaOs/iaDrivers/nbproject/private/configurations.xml
+./iaOs/iaDrivers/nbproject/Makefile-local-default.mk
+# Файл: ./iaOs/iaDrivers/nbproject/Makefile-local-default.mk
+./iaOs/iaDrivers/nbproject/configurations.xml
+# Файл: ./iaOs/iaDrivers/nbproject/configurations.xml
+./iaOs/iaDrivers/nbproject/Makefile-genesis.properties
+# Файл: ./iaOs/iaDrivers/nbproject/Makefile-genesis.properties
+./iaOs/iaFileSystem/iaFileSystem.hpp
+# Файл: ./iaOs/iaFileSystem/iaFileSystem.hpp
+./iaOs/iaFileSystem/iaFileSystem.cpp
+# Файл: ./iaOs/iaFileSystem/iaFileSystem.cpp
+./iaOs/iaKernel/iaKernel.hpp
+# Файл: ./iaOs/iaKernel/iaKernel.hpp
+./iaOs/iaKernel/iaKernel.cpp
+# Файл: ./iaOs/iaKernel/iaKernel.cpp
+./iaOs/iaSecurity/iaSecurity.cpp
+# Файл: ./iaOs/iaSecurity/iaSecurity.cpp
+./iaOs/iaSecurity/iaSecurity.hpp
+# Файл: ./iaOs/iaSecurity/iaSecurity.hpp
+./iaOs/iaNetworking/iaNetworking.hpp
+# Файл: ./iaOs/iaNetworking/iaNetworking.hpp
+./iaOs/iaNetworking/iaNetworking.cpp
+# Файл: ./iaOs/iaNetworking/iaNetworking.cpp
+./iaScience/iaGeneticModeling/iaGeneticModeling.hpp
+# Файл: ./iaScience/iaGeneticModeling/iaGeneticModeling.hpp
+./iaScience/iaGeneticModeling/iaGeneticModeling.cpp
+# Файл: ./iaScience/iaGeneticModeling/iaGeneticModeling.cpp
+./iaScience/iaEnergySystems/iaEnergySystems.cpp
+# Файл: ./iaScience/iaEnergySystems/iaEnergySystems.cpp
+./iaScience/iaEnergySystems/iaEnergySystems.hpp
+# Файл: ./iaScience/iaEnergySystems/iaEnergySystems.hpp
+./iaScience/iaAstrobiology/iaAstrobiology.cpp
+# Файл: ./iaScience/iaAstrobiology/iaAstrobiology.cpp
+./iaScience/iaAstrobiology/iaAstrobiology.hpp
+# Файл: ./iaScience/iaAstrobiology/iaAstrobiology.hpp
+./iaScience/iaGeophysics/iaGeophysics.cpp
+# Файл: ./iaScience/iaGeophysics/iaGeophysics.cpp
+./iaScience/iaGeophysics/iaGeophysics.hpp
+# Файл: ./iaScience/iaGeophysics/iaGeophysics.hpp
+./iaScience/iaClimateModeling/iaClimateModeling.hpp
+# Файл: ./iaScience/iaClimateModeling/iaClimateModeling.hpp
+./iaScience/iaClimateModeling/iaClimateModeling.cpp
+# Файл: ./iaScience/iaClimateModeling/iaClimateModeling.cpp
+./iaScience/iaAeroPhysics/iaAeroPhysics.cpp
+# Файл: ./iaScience/iaAeroPhysics/iaAeroPhysics.cpp
+./iaScience/iaAeroPhysics/iaAeroPhysics.hpp
+# Файл: ./iaScience/iaAeroPhysics/iaAeroPhysics.hpp
+./iaScience/iaMathematicalModeling/iaMathematicalModeling.cpp
+# Файл: ./iaScience/iaMathematicalModeling/iaMathematicalModeling.cpp
+./iaScience/iaMathematicalModeling/iaMathematicalModeling.hpp
+# Файл: ./iaScience/iaMathematicalModeling/iaMathematicalModeling.hpp
+./iaScience/iaOrbitalMechanics/iaOrbitalMechanics.cpp
+# Файл: ./iaScience/iaOrbitalMechanics/iaOrbitalMechanics.cpp
+./iaScience/iaOrbitalMechanics/iaOrbitalMechanics.hpp
+# Файл: ./iaScience/iaOrbitalMechanics/iaOrbitalMechanics.hpp
+./iaScience/iaGIS/iaGIS.hpp
+# Файл: ./iaScience/iaGIS/iaGIS.hpp
+./iaScience/iaGIS/iaGIS.cpp
+# Файл: ./iaScience/iaGIS/iaGIS.cpp
+./iaScience/iaQuantumPhysics/iaQuantumPhysics.hpp
+# Файл: ./iaScience/iaQuantumPhysics/iaQuantumPhysics.hpp
+./iaScience/iaQuantumPhysics/iaQuantumPhysics.cpp
+# Файл: ./iaScience/iaQuantumPhysics/iaQuantumPhysics.cpp
+./iaScience/iaNewtonianPhysics/iaNewtonianPhysics.cpp
+# Файл: ./iaScience/iaNewtonianPhysics/iaNewtonianPhysics.cpp
+./iaScience/iaNewtonianPhysics/iaNewtonianPhysics.hpp
+# Файл: ./iaScience/iaNewtonianPhysics/iaNewtonianPhysics.hpp
+./iaScience/iaProbabilityTheory/iaProbabilityTheory.hpp
+# Файл: ./iaScience/iaProbabilityTheory/iaProbabilityTheory.hpp
+./iaScience/iaProbabilityTheory/iaProbabilityTheory.cpp
+# Файл: ./iaScience/iaProbabilityTheory/iaProbabilityTheory.cpp
+./iaScience/iaStatistics/iaStatistics.cpp
+# Файл: ./iaScience/iaStatistics/iaStatistics.cpp
+./iaScience/iaStatistics/iaStatistics.hpp
+# Файл: ./iaScience/iaStatistics/iaStatistics.hpp
+./iaScience/iaChemistry/iaChemistry.hpp
+# Файл: ./iaScience/iaChemistry/iaChemistry.hpp
+./iaScience/iaChemistry/iaChemistry.cpp
+# Файл: ./iaScience/iaChemistry/iaChemistry.cpp
+./iaScience/iaBiochemicalModeling/iaBiochemicalModeling.cpp
+# Файл: ./iaScience/iaBiochemicalModeling/iaBiochemicalModeling.cpp
+./iaScience/iaBiochemicalModeling/iaBiochemicalModeling.hpp
+# Файл: ./iaScience/iaBiochemicalModeling/iaBiochemicalModeling.hpp
+./iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.hpp
+# Файл: ./iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.hpp
+./iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.cpp
+# Файл: ./iaScience/iaNeuroscienceModeling/iaNeuroscienceModeling.cpp
+./tests/.DS_Store
+# Файл: ./tests/.DS_Store
+./tests/Test_iaVectorDouble
+# Файл: ./tests/Test_iaVectorDouble
+./tests/Test_iaVectorNested
+# Файл: ./tests/Test_iaVectorNested
+./tests/iaVectorTest/.DS_Store
+# Файл: ./tests/iaVectorTest/.DS_Store
+./tests/iaVectorTest/iaVectorTest.cpp
+# Файл: ./tests/iaVectorTest/iaVectorTest.cpp
+./tests/iaVectorTest/iaVectorTestInt.cpp
+# Файл: ./tests/iaVectorTest/iaVectorTestInt.cpp
+./tests/iaVectorTest/iaVectorTestDouble.cpp
+# Файл: ./tests/iaVectorTest/iaVectorTestDouble.cpp
+./tests/iaVectorTest/iaVectorTestNested.cpp
+# Файл: ./tests/iaVectorTest/iaVectorTestNested.cpp
+./tests/iaComplexTest/iaComplexTest.cpp
+# Файл: ./tests/iaComplexTest/iaComplexTest.cpp
+./tests/iaComplexTest/.DS_Store
+# Файл: ./tests/iaComplexTest/.DS_Store
+./tests/iaComplexTest/makefile
+# Файл: ./tests/iaComplexTest/makefile
+./tests/TestsDatas/iaVectorBool.txt
+# Файл: ./tests/TestsDatas/iaVectorBool.txt
+./tests/TestsDatas/.DS_Store
+# Файл: ./tests/TestsDatas/.DS_Store
+./tests/TestsDatas/iaVectorInt.txt
+# Файл: ./tests/TestsDatas/iaVectorInt.txt
+./tests/TestsDatas/iaComplex.txt
+# Файл: ./tests/TestsDatas/iaComplex.txt
+./tests/TestsDatas/iaVector.txt
+# Файл: ./tests/TestsDatas/iaVector.txt
+./tests/TestsDatas/iaVectorNested.txt
+# Файл: ./tests/TestsDatas/iaVectorNested.txt
+./tests/TestsDatas/iaVectorDouble.txt
+# Файл: ./tests/TestsDatas/iaVectorDouble.txt
+./tests/TestsResults/.DS_Store
+# Файл: ./tests/TestsResults/.DS_Store
+./tests/TestsResults/iaComplex.txt
+# Файл: ./tests/TestsResults/iaComplex.txt
+./tests/TestsResults/iaVectorNested.txt
+# Файл: ./tests/TestsResults/iaVectorNested.txt
+./tests/TestsResults/iaVectorDouble.txt
+# Файл: ./tests/TestsResults/iaVectorDouble.txt
+./project_structure_with_comments.txt
+# Файл: ./project_structure_with_comments.txt
+./project_structure.txt
+# Файл: ./project_structure.txt
+./README.md
+# Файл: ./README.md
+./foldersStructure.txt
+# Файл: ./foldersStructure.txt
+./CG RD.sublime-workspace
+# Файл: ./CG RD.sublime-workspace
+./scripts/.DS_Store
+# Файл: ./scripts/.DS_Store
+./scripts/python/add_funclib.py
+# Файл: ./scripts/python/add_funclib.py
+./scripts/python/doxygen.py
+# Файл: ./scripts/python/doxygen.py
+./scripts/python/Doxyfile
+# Файл: ./scripts/python/Doxyfile
+./scripts/shell/create_project_structure.sh
+# Файл: ./scripts/shell/create_project_structure.sh
+./scripts/shell/generate_project_structure.sh
+# Файл: ./scripts/shell/generate_project_structure.sh
+./scripts/shell/compile_iaComplexTest.sh
+# Файл: ./scripts/shell/compile_iaComplexTest.sh
+./scripts/shell/compile_iaVectorTest.sh
+# Файл: ./scripts/shell/compile_iaVectorTest.sh
+./scripts/shell/add_class.sh
+# Файл: ./scripts/shell/add_class.sh
+./scripts/shell/compile_iaVectorTestInt.sh
+# Файл: ./scripts/shell/compile_iaVectorTestInt.sh
+./scripts/shell/move_class.sh
+# Файл: ./scripts/shell/move_class.sh
+./scripts/shell/add_funclib.sh
+# Файл: ./scripts/shell/add_funclib.sh
+./scripts/shell/addemptyfiles.sh
+# Файл: ./scripts/shell/addemptyfiles.sh
+./scripts/shell/addLibs.sh
+# Файл: ./scripts/shell/addLibs.sh
+./scripts/shell/add_science_libs.sh
+# Файл: ./scripts/shell/add_science_libs.sh
+./scripts/shell/create_ia_structure.sh
+# Файл: ./scripts/shell/create_ia_structure.sh
+./scripts/shell/create_empty_files.sh
+# Файл: ./scripts/shell/create_empty_files.sh
+./scripts/shell/compile_iaVectorTestNested.sh
+# Файл: ./scripts/shell/compile_iaVectorTestNested.sh
+./scripts/shell/compile_iaVectorTestDouble.sh
+# Файл: ./scripts/shell/compile_iaVectorTestDouble.sh
+./scripts/shell/generate_structure.sh
+# Файл: ./scripts/shell/generate_structure.sh
+./CG RD.sublime-project
+# Файл: ./CG RD.sublime-project
+./iaSecurity/iaBlockchain/iaBlockchain.cpp
+# Файл: ./iaSecurity/iaBlockchain/iaBlockchain.cpp
+./iaSecurity/iaBlockchain/iaBlockchain.hpp
+# Файл: ./iaSecurity/iaBlockchain/iaBlockchain.hpp
+./iaSecurity/iaPostQuantumCryptography/iaPostQuantumCryptography.cpp
+# Файл: ./iaSecurity/iaPostQuantumCryptography/iaPostQuantumCryptography.cpp
+./iaSecurity/iaPostQuantumCryptography/iaPostQuantumCryptography.hpp
+# Файл: ./iaSecurity/iaPostQuantumCryptography/iaPostQuantumCryptography.hpp
+./iaSecurity/iaCryptography/iaCryptography.hpp
+# Файл: ./iaSecurity/iaCryptography/iaCryptography.hpp
+./iaSecurity/iaCryptography/iaCryptography.cpp
+# Файл: ./iaSecurity/iaCryptography/iaCryptography.cpp
+./iaSecurity/iaDataProtection/iaDataProtection.hpp
+# Файл: ./iaSecurity/iaDataProtection/iaDataProtection.hpp
+./iaSecurity/iaDataProtection/iaDataProtection.cpp
+# Файл: ./iaSecurity/iaDataProtection/iaDataProtection.cpp
+./iaSecurity/iaSecureProtocols/iaSecureProtocols.hpp
+# Файл: ./iaSecurity/iaSecureProtocols/iaSecureProtocols.hpp
+./iaSecurity/iaSecureProtocols/iaSecureProtocols.cpp
+# Файл: ./iaSecurity/iaSecureProtocols/iaSecureProtocols.cpp

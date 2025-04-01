@@ -1,0 +1,61 @@
+Физика
+ ├── iaNewtonian
+ │   ├── Зависит от: iaMath/iaLinearAlgebra
+ │   └── Зависит от: iaScience/iaChemistry
+ └── iaQuantum
+     ├── Зависит от: iaMath/iaLinearAlgebra
+     └── Зависит от: iaScience/iaChemistry
+
+Математика
+ ├── iaLinearAlgebra
+ │   ├── Зависит от: iaMath/iaFunctions
+ │   ├── Зависит от: iaPhysics/iaNewtonian
+ │   └── Зависит от: iaPhysics/iaQuantum
+ └── iaStatistics
+     └── Зависит от: iaScience/iaBiochemicalModeling
+
+Наука
+ ├── iaChemistry
+ │   ├── Зависит от: iaPhysics/iaNewtonian
+ │   └── Зависит от: iaMath/iaStatistics
+ └── iaBiochemicalModeling
+     └── Зависит от: iaMath/iaStatistics
+
+Искусственный интеллект
+ ├── iaNeuralNetworks
+ │   ├── Зависит от: iaMath/iaLinearAlgebra
+ │   └── Зависит от: iaMath/iaFunctions
+ └── iaObjectRecognition
+     └── Зависит от: iaAi/iaNeuralNetworks
+
+Системы
+ ├── iaFileSystem
+ │   └── Зависит от: iaDatabase
+ └── iaNetworking
+     └── Зависит от: iaDatabase
+
+
+project_root/
+ ├── Documentations/
+ ├── iaAi/
+ ├── iaDatabase/
+ ├── iaGis/
+ ├── iaMl/
+ ├── iaMath/
+  ├── iaFunctions/
+  ├── iaLinearAlgebra/
+   ├── iaComplex/
+   ├── iaVector/
+   ├── iaGeometry/  # Новый модуль
+  ├── iaProbability/
+  ├── iaStatistics/
+ ├── iaPhysics/
+  ├── iaAstrophysics/
+  ├── iaNewtonian/
+  ├── iaQuantum/
+ ├── iaScience/
+ ├── iaSecurity/
+ ├── iaSimulation/
+ ├── scripts/
+ ├── tests/
+

@@ -1,0 +1,195 @@
+#ifndef iaVector_hpp
+#define iaVector_hpp
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <stdexcept>
+
+/**
+ * @class iaVector
+ * @brief Класс для представления и работы с векторами.
+ */
+class iaVector {
+public:
+    /**
+     * @brief Конструктор по умолчанию.
+     */
+    iaVector();
+
+    /**
+     * @brief Конструктор с размером.
+     * @param m Размер вектора.
+     */
+    iaVector(int m);
+
+    /**
+     * @brief Конструктор с заданными значениями.
+     * @param m Размер вектора.
+     * @param values Массив значений.
+     */
+    iaVector(int m, const double values[]);
+
+    /**
+     * @brief Конструктор копирования.
+     * @param otherVector Другой вектор для копирования.
+     */
+    iaVector(const iaVector& otherVector);
+
+    /**
+     * @brief Деструктор.
+     */
+    ~iaVector();
+
+    /**
+     * @brief Оператор присваивания.
+     * @param otherVector Вектор для копирования.
+     * @return Ссылка на текущий объект.
+     */
+    iaVector& operator=(const iaVector& otherVector) noexcept;
+
+    /**
+     * @brief Оператор сложения.
+     * @param otherVector Второй вектор.
+     * @return Новый вектор - сумма.
+     */
+    iaVector operator+(const iaVector& otherVector);
+
+    /**
+     * @brief Оператор вычитания.
+     * @param otherVector Второй вектор.
+     * @return Новый вектор - разность.
+     */
+    iaVector operator-(const iaVector& otherVector);
+
+    /**
+     * @brief Оператор поэлементного умножения.
+     * @param otherVector Второй вектор.
+     * @return Новый вектор - результат поэлементного умножения.
+     */
+    iaVector operator*(const iaVector& otherVector);
+
+    /**
+     * @brief Оператор умножения на скаляр.
+     * @param scal Скаляр.
+     * @return Новый вектор - результат умножения.
+     */
+    iaVector operator*(double scal);
+
+    /**
+     * @brief Инвертирование вектора.
+     */
+    void inverting() noexcept;
+
+    /**
+     * @brief Получение размера вектора.
+     * @return Размер вектора.
+     */
+    int sizeOfVector() const;
+
+    /**
+     * @brief Вывод вектора в консоль.
+     */
+    void printVector() const;
+
+    /**
+     * @brief Сумма элементов вектора.
+     * @return Сумма элементов.
+     */
+    double sum() const;
+
+    /**
+     * @brief L2-норма (евклидова норма).
+     * @return L2-норма вектора.
+     */
+    double L2norm() const;
+
+    /**
+     * @brief L1-норма (манхэттенская норма).
+     * @return L1-норма вектора.
+     */
+    double L1norm() const;
+
+    /**
+     * @brief Максимальная норма.
+     * @return Максимальный модуль элемента вектора.
+     */
+    double LMnorm() const;
+
+    /**
+     * @brief Скалярное произведение векторов.
+     * @param otherVector Второй вектор.
+     * @return Результат скалярного произведения.
+     */
+    double dotProduct(const iaVector& otherVector) const;
+
+    /**
+     * @brief Угол между векторами.
+     * @param otherVector Второй вектор.
+     * @return Угол в радианах.
+     */
+    double angleBetween(const iaVector& otherVector) const noexcept;
+
+    /**
+     * @brief Сортировка в порядке возрастания.
+     */
+    void sortAscending();
+
+    /**
+     * @brief Сортировка в порядке убывания.
+     */
+    void sortDescending();
+
+    /**
+     * @brief Максимальный элемент вектора.
+     * @return Максимальный элемент.
+     */
+    double maxElement() const;
+
+    /**
+     * @brief Минимальный элемент вектора.
+     * @return Минимальный элемент.
+     */
+    double minElement() const;
+
+    /**
+     * @brief Среднее арифметическое значений вектора.
+     * @return Среднее значение.
+     */
+    double average() const;
+
+    /**
+     * @brief Доступ к элементу по индексу.
+     * @param j Индекс.
+     * @return Ссылка на элемент.
+     */
+    double& operator[](int j);
+
+    /**
+     * @brief Оператор сравнения на равенство.
+     * @param otherVector Второй вектор.
+     * @return true, если векторы равны, иначе false.
+     */
+    bool operator==(const iaVector& otherVector) const noexcept;
+
+    /**
+     * @brief Оператор сравнения на неравенство.
+     * @param otherVector Второй вектор.
+     * @return true, если векторы не равны, иначе false.
+     */
+    bool operator!=(const iaVector& otherVector) const noexcept;
+
+    /**
+     * @brief Нормализация вектора.
+     * @param otherVector Вектор.
+     * @return Нормализованный вектор.
+     */
+    iaVector operator||(const iaVector& otherVector) const noexcept;
+
+    double* value; ///< Указатель на массив значений вектора.
+
+private:
+    int m; ///< Размер вектора.
+};
+
+#endif /* iaVector_hpp */

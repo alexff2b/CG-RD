@@ -1,0 +1,11 @@
+{
+  "perceptron": {
+    "input_size": 2,
+    "weights": [0.5, 0.3],
+    "input_data": [1.0, 0.5],
+    "target": 0.7,
+    "learning_rate": 0.01,
+    "bias": 0.1,
+    "gradient": 0.05
+  }
+}

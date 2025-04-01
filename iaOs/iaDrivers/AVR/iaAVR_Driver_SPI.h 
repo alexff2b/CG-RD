@@ -1,0 +1,3 @@
+#define SPCR	0x2C	// SPI Control Register
+#define SPSR	0x2D	// SPI Status Register
+#define SPDR	/0x2E	// SPI Data Register
